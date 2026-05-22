@@ -81,8 +81,8 @@ else:
     print("Operation not available")
 
 #Password Check
-a=int(input("Enter Password length:"))
-if a>=8:
+a=input("Enter Password length:")
+if len(a)>=8:
     print("Strong password")
 else:
     print("Weak password")
